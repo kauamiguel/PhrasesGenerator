@@ -7,11 +7,13 @@
 
 import CloudKit
 import CoreData
+import SwiftUI
 
-struct PersistenceController{
+class PersistenceController : ObservableObject{
     
     static let shared = PersistenceController()
     let container: NSPersistentCloudKitContainer
+    @Published var savedQuotes: [Banco] = []
     
     
     init(inMemory: Bool = false) {
@@ -29,5 +31,53 @@ struct PersistenceController{
         
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
+    
+    func saveData(){
+        do{
+            try container.viewContext.save()
+            fetchQuotes()
+        }catch{
+            print("Error saving data")
+        }
+    }
+    
+    func fetchQuotes(){
+        let request = NSFetchRequest<Banco>(entityName: "Banco")
+        
+        do{
+            try savedQuotes = container.viewContext.fetch(request)
+        }catch{
+            print("Erro saving data")
+        }
+    }
+    
+    func addQuote(quote : APIResponse){
+        let newQuote = Banco(context: container.viewContext)
+        newQuote.frase = quote.q
+        newQuote.autor = quote.a
+        saveData()
+    }
+    
+    func deleteObject(index : IndexSet){
+        let indexDeleted = index.first!
+        container.viewContext.delete(savedQuotes[indexDeleted])
+        saveData()
+        fetchQuotes()
+    }
+    
+    func removeBanco(at offsets: IndexSet){
+
+        withAnimation{
+            offsets.map { savedQuotes[$0] }.forEach(container.viewContext.delete)
+
+            do{
+                try container.viewContext.save()
+            } catch{
+                print("Azedou")
+            }
+        }
+
+    }
+
     
 }

@@ -9,22 +9,43 @@
 /* Begin PBXBuildFile section */
 		3B780B332A93DE70003F82DA /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B322A93DE70003F82DA /* PersistenceController.swift */; };
 		3B780B362A93DE77003F82DA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B342A93DE77003F82DA /* Model.xcdatamodeld */; };
-		3B780B382A93DFDC003F82DA /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B372A93DFDC003F82DA /* ApiRequest.swift */; };
+		3B780B382A93DFDC003F82DA /* APIVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B372A93DFDC003F82DA /* APIVM.swift */; };
+		3B780B3D2A93E337003F82DA /* FrasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B3C2A93E337003F82DA /* FrasesView.swift */; };
+		3B780B412A93E50B003F82DA /* FavoritosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B780B402A93E50B003F82DA /* FavoritosView.swift */; };
+		62D90F202A96808000B94596 /* FavoritosDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D90F1F2A96808000B94596 /* FavoritosDetailedView.swift */; };
+		AB5A1F952A9E27FB001A7094 /* CloudKitUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A1F942A9E27FB001A7094 /* CloudKitUtility.swift */; };
+		AB5A1F972A9E280A001A7094 /* CloudKitVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A1F962A9E280A001A7094 /* CloudKitVM.swift */; };
+		AB5A1F992A9E2820001A7094 /* CloudKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A1F982A9E2820001A7094 /* CloudKitView.swift */; };
+		AB5A1F9B2A9E317B001A7094 /* CloudKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A1F9A2A9E317B001A7094 /* CloudKitModel.swift */; };
+		AB5A1F9F2A9E5EAC001A7094 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A1F9E2A9E5EAC001A7094 /* APIModel.swift */; };
 		B88804362A9009C600645C90 /* Nano3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88804352A9009C600645C90 /* Nano3App.swift */; };
 		B88804382A9009C600645C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88804372A9009C600645C90 /* ContentView.swift */; };
 		B888043A2A9009C700645C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88804392A9009C700645C90 /* Assets.xcassets */; };
 		B888043D2A9009C700645C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B888043C2A9009C700645C90 /* Preview Assets.xcassets */; };
+		CEA5DA232A9401B00013CFEE /* APIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5DA212A9401B00013CFEE /* APIUtility.swift */; };
+		CEA5DA242A9401B00013CFEE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5DA222A9401B00013CFEE /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B780B322A93DE70003F82DA /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		3B780B352A93DE77003F82DA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		3B780B372A93DFDC003F82DA /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		3B780B372A93DFDC003F82DA /* APIVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVM.swift; sourceTree = "<group>"; };
+		3B780B392A93E259003F82DA /* Nano3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nano3.entitlements; sourceTree = "<group>"; };
+		3B780B3C2A93E337003F82DA /* FrasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrasesView.swift; sourceTree = "<group>"; };
+		3B780B402A93E50B003F82DA /* FavoritosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosView.swift; sourceTree = "<group>"; };
+		62D90F1F2A96808000B94596 /* FavoritosDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosDetailedView.swift; sourceTree = "<group>"; };
+		AB5A1F942A9E27FB001A7094 /* CloudKitUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUtility.swift; sourceTree = "<group>"; };
+		AB5A1F962A9E280A001A7094 /* CloudKitVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitVM.swift; sourceTree = "<group>"; };
+		AB5A1F982A9E2820001A7094 /* CloudKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitView.swift; sourceTree = "<group>"; };
+		AB5A1F9A2A9E317B001A7094 /* CloudKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitModel.swift; sourceTree = "<group>"; };
+		AB5A1F9E2A9E5EAC001A7094 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		B88804322A9009C600645C90 /* Nano3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88804352A9009C600645C90 /* Nano3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano3App.swift; sourceTree = "<group>"; };
 		B88804372A9009C600645C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B88804392A9009C700645C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B888043C2A9009C700645C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA5DA212A9401B00013CFEE /* APIUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUtility.swift; sourceTree = "<group>"; };
+		CEA5DA222A9401B00013CFEE /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,55 @@
 			path = Persistence;
 			sourceTree = "<group>";
 		};
+		3B780B3E2A93E340003F82DA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AB5A1F9E2A9E5EAC001A7094 /* APIModel.swift */,
+				3B780B372A93DFDC003F82DA /* APIVM.swift */,
+				CEA5DA212A9401B00013CFEE /* APIUtility.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3B780B3F2A93E352003F82DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B88804372A9009C600645C90 /* ContentView.swift */,
+				62D90F1F2A96808000B94596 /* FavoritosDetailedView.swift */,
+				3B780B402A93E50B003F82DA /* FavoritosView.swift */,
+				3B780B3C2A93E337003F82DA /* FrasesView.swift */,
+				AB5A1F982A9E2820001A7094 /* CloudKitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB5A1F932A9E27C9001A7094 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB5A1F9A2A9E317B001A7094 /* CloudKitModel.swift */,
+				AB5A1F942A9E27FB001A7094 /* CloudKitUtility.swift */,
+				AB5A1F962A9E280A001A7094 /* CloudKitVM.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
+		AB5A1F9C2A9E5CCC001A7094 /* Erros */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5DA222A9401B00013CFEE /* Error.swift */,
+			);
+			path = Erros;
+			sourceTree = "<group>";
+		};
+		AB5A1F9D2A9E5CE1001A7094 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				B88804352A9009C600645C90 /* Nano3App.swift */,
+				B88804392A9009C700645C90 /* Assets.xcassets */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
 		B88804292A9009C600645C90 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +136,13 @@
 		B88804342A9009C600645C90 /* Nano3 */ = {
 			isa = PBXGroup;
 			children = (
-				B88804352A9009C600645C90 /* Nano3App.swift */,
-				B88804372A9009C600645C90 /* ContentView.swift */,
-				3B780B372A93DFDC003F82DA /* ApiRequest.swift */,
+				3B780B392A93E259003F82DA /* Nano3.entitlements */,
+				AB5A1F9D2A9E5CE1001A7094 /* APP */,
+				3B780B3F2A93E352003F82DA /* Views */,
+				3B780B3E2A93E340003F82DA /* API */,
 				3B780B312A93DE4B003F82DA /* Persistence */,
-				B88804392A9009C700645C90 /* Assets.xcassets */,
+				AB5A1F932A9E27C9001A7094 /* CloudKit */,
+				AB5A1F9C2A9E5CCC001A7094 /* Erros */,
 				B888043B2A9009C700645C90 /* Preview Content */,
 			);
 			path = Nano3;
@@ -156,8 +228,18 @@
 			files = (
 				3B780B332A93DE70003F82DA /* PersistenceController.swift in Sources */,
 				B88804382A9009C600645C90 /* ContentView.swift in Sources */,
+				3B780B3D2A93E337003F82DA /* FrasesView.swift in Sources */,
+				62D90F202A96808000B94596 /* FavoritosDetailedView.swift in Sources */,
+				AB5A1F9F2A9E5EAC001A7094 /* APIModel.swift in Sources */,
+				AB5A1F952A9E27FB001A7094 /* CloudKitUtility.swift in Sources */,
+				3B780B412A93E50B003F82DA /* FavoritosView.swift in Sources */,
+				AB5A1F9B2A9E317B001A7094 /* CloudKitModel.swift in Sources */,
+				AB5A1F992A9E2820001A7094 /* CloudKitView.swift in Sources */,
+				CEA5DA232A9401B00013CFEE /* APIUtility.swift in Sources */,
 				B88804362A9009C600645C90 /* Nano3App.swift in Sources */,
-				3B780B382A93DFDC003F82DA /* ApiRequest.swift in Sources */,
+				3B780B382A93DFDC003F82DA /* APIVM.swift in Sources */,
+				AB5A1F972A9E280A001A7094 /* CloudKitVM.swift in Sources */,
+				CEA5DA242A9401B00013CFEE /* Error.swift in Sources */,
 				3B780B362A93DE77003F82DA /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,10 +366,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nano3/Nano3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nano3/Preview Content\"";
-				DEVELOPMENT_TEAM = TLC9D54B8V;
+				DEVELOPMENT_TEAM = 6FXWX5Z987;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Giovanni.Nano3;
+				PRODUCT_BUNDLE_IDENTIFIER = Nano3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,10 +396,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nano3/Nano3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nano3/Preview Content\"";
-				DEVELOPMENT_TEAM = TLC9D54B8V;
+				DEVELOPMENT_TEAM = 6FXWX5Z987;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -329,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Giovanni.Nano3;
+				PRODUCT_BUNDLE_IDENTIFIER = Nano3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
