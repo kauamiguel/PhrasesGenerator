@@ -9,9 +9,6 @@ import SwiftUI
 
 struct FavoritosView: View {
     
-    @Environment(\.managedObjectContext) private var moc
-    @FetchRequest(entity: Banco.entity(), sortDescriptors: [])
-    private var acessoBanco:FetchedResults<Banco>
     @StateObject var persistence : PersistenceController = PersistenceController()
     
     var body: some View {

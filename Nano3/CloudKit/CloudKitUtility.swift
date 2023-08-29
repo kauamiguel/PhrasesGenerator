@@ -8,8 +8,6 @@
 import Foundation
 import CloudKit
 
-
-
 class CloudKitUtility {
     
     func getUserID() async throws -> CKRecord.ID{
